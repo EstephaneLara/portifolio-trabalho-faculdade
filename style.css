@@ -1,0 +1,139 @@
+/* FONT IMPORT - ROBOTO */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #d16a2e;
+    min-height: 100vh;  
+    display: flex;
+    flex-direction: column;
+}
+
+/* MENU - NAVEGAÇÃO */
+.header {
+    background-color: #0c0c0c;
+    padding: 30px;
+    color: #d16a2e;
+    text-align: center;
+}
+
+.header h1 {
+    padding-bottom: 15px;
+}
+
+.header a:link, .header a:visited {
+    color: #FFFFFF;
+    padding: 8px 12px;
+    
+} 
+
+.header a:hover {
+    box-shadow: 5px 5px 10px rgba(109, 107, 107, 0.6);
+}
+
+.menu a {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 30px;
+    transition: 0.3s ease-in-out;
+}
+
+.menu a:hover {
+    color: #d16a2e;
+    background-color: #fff;
+} 
+
+/* CONTEÚDO */
+.card { 
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 250px auto;
+    max-width: 800px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.title {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #000;
+}
+
+.content {
+    text-align: justify;
+}
+
+p {
+    padding: 10px;
+}
+
+ /* ESTILIZAÇÃO DO GITHUB NA PÁGINA - Outros Trabalhos */
+li, a {
+    list-style-type: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+.social {
+    font-size: 24px;
+    margin: 0 10px; 
+    transition: 0.3s ease-in-out;
+}
+.social:hover {
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* ESTILIZAÇÃO PÁGINA FORMULÁRIO - Contatos */
+input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #000;
+}
+textarea {
+    padding: 8px;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-color: #000;
+}
+
+button {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #bebcba;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.3s ease-in-out;
+    
+}
+
+button:hover {
+    background-color: #0c0c0c;
+    color: #d16a2e;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+/* FOOTER */
+.footer {
+    clear: both;
+    text-align: center;
+    padding: 25px;
+    background: #0c0c0c;
+    color: #d16a2e;
+    margin-top: auto;
+}
+
